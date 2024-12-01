@@ -11068,7 +11068,8 @@ body {
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
+  padding: 0;
+  padding-top: 15rem;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
   background-position: left 10% top;
   background-repeat: no-repeat;
@@ -11159,7 +11160,8 @@ body {
 }
 
 .signup-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
+  padding-bottom: 20rem;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -11170,7 +11172,7 @@ body {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Cormorant Garamond", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -11217,4 +11219,28 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.table {
+  --bs-table-bg: rgba(0, 0, 0, 0.7); /* Semi-transparent dark background */
+  --bs-table-border-color: rgba(255, 255, 255, 0.2); /* Light border with transparency */
+  --bs-table-accent-bg: rgba(0, 0, 0, 0.8); /* Slightly darker hover background */
+}
+
+h2.text-center {
+  color: #C0C0C0;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-family: "Cormorant Garamond";
+}
+
+.table td, .table th {
+  color: #C0C0C0; /* Pure white text color */
 }
