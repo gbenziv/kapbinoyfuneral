@@ -11234,13 +11234,25 @@ table th {
   --bs-table-accent-bg: rgba(0, 0, 0, 0.8); /* Slightly darker hover background */
 }
 
-h2.text-center {
-  color: #C0C0C0;
-  font-size: 40px;
-  letter-spacing: 1px;
-  font-family: "Cormorant Garamond";
-}
-
 .table td, .table th {
   color: #C0C0C0; /* Pure white text color */
+}
+
+.funeral-schedule {
+  margin-top: 50px; /* Adjust as needed */
+  color: #C0C0C0;
+  /* font-size: 40px;
+  letter-spacing: 1px; */
+}
+
+.funeral-schedule h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: "Cormorant Garamond";
+  letter-spacing: 1px;
+}
+
+.funeral-schedule p {
+  margin-bottom: 10px;
+  font-size: 15px;
 }
